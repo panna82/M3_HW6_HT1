@@ -3,10 +3,12 @@
 #include "Windows.h"
 #define MODE 1
 
+#if MODE == 1
 int add(int a, int b)
 {
 	return a + b;
 }
+#endif
 
 int main()
 {
